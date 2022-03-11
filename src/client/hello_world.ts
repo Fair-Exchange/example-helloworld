@@ -5,12 +5,12 @@ import {
   Keypair,
   Connection,
   PublicKey,
-  LAMPORTS_PER_SOL,
+  LAMPORTS_PER_SAFE,
   SystemProgram,
   TransactionInstruction,
   Transaction,
   sendAndConfirmTransaction,
-} from '@solana/web3.js';
+} from '@safecoin/web3.js';
 import fs from 'mz/fs';
 import path from 'path';
 import * as borsh from 'borsh';
