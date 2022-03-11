@@ -1,5 +1,5 @@
 use borsh::{BorshDeserialize, BorshSerialize};
-use solana_program::{
+use safecoin_program::{
     account_info::{next_account_info, AccountInfo},
     entrypoint,
     entrypoint::ProgramResult,
@@ -52,7 +52,7 @@ pub fn process_instruction(
 #[cfg(test)]
 mod test {
     use super::*;
-    use solana_program::clock::Epoch;
+    use safecoin_program::clock::Epoch;
     use std::mem;
 
     #[test]
