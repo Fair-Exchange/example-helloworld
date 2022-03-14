@@ -102,7 +102,7 @@ solana-test-validator
 
 Listen to transaction logs:
 ```bash
-solana logs
+safecoin logs
 ```
 
 ### Install npm dependencies
@@ -127,7 +127,7 @@ npm run build:program-c
 ### Deploy the on-chain program
 
 ```bash
-solana program deploy dist/program/helloworld.so
+safecoin program deploy dist/program/helloworld.so
 ```
 
 ### Run the JavaScript client
