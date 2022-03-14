@@ -125,8 +125,8 @@ export async function establishPayer(): Promise<void> {
     'Using account',
     payer.publicKey.toBase58(),
     'containing',
-    lamports / LAMPORTS_PER_SOL,
-    'SOL to pay for fees',
+    lamports / LAMPORTS_PER_SAFE,
+    'SAFE to pay for fees',
   );
 }
 
