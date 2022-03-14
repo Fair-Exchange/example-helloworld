@@ -6,7 +6,7 @@ import os from 'os';
 import fs from 'mz/fs';
 import path from 'path';
 import yaml from 'yaml';
-import {Keypair} from '@solana/web3.js';
+import {Keypair} from '@safecoin/web3.js';
 
 /**
  * @private
@@ -16,7 +16,7 @@ async function getConfig(): Promise<any> {
   const CONFIG_FILE_PATH = path.resolve(
     os.homedir(),
     '.config',
-    'solana',
+    'safecoin',
     'cli',
     'config.yml',
   );
